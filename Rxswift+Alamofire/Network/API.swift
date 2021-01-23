@@ -47,7 +47,8 @@ class API {
             
             return completion(NSError(domain: "에러",
                                       code: 404,
-                                      userInfo: nil), nil)
+                                      userInfo: nil),
+                              nil)
         }
         
         AF.request(url,
